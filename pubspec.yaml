@@ -1,0 +1,53 @@
+name: number_game
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.0
+  stylish_bottom_bar: ^1.1.1
+  google_fonts: ^6.3.0
+  intl: ^0.20.2
+  morphable_shape: ^2.0.0
+  animate_do: ^4.2.0
+  light_bottom_navigation_bar: ^0.0.3
+  page_transition: ^2.2.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  dartz: ^0.10.1
+  get_it: ^8.2.0
+  uuid: ^4.5.1
+  timeline_tile: ^2.0.0
+  flutter_launcher_icons: ^0.14.4
+  
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "asset/app_logo/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/images/
+    - asset/icons/
+    - asset/app_logo/
+    - asset/audio/    
