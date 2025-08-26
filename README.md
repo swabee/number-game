@@ -12,6 +12,7 @@ A new Flutter project.
 
 
 #Project structed
+'''bash
 📦lib
  ┣ 📂backend
  ┃ ┗ 📜hive_storage_service.dart
@@ -168,7 +169,7 @@ A new Flutter project.
  ┣ 📂utils
  ┃ ┗ 📜usecase.dart
  ┗ 📜main.dart
-
+'''
 
 #Architecture
 
