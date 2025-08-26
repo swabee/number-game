@@ -253,6 +253,10 @@ Domain layer :- Entity + Repository + Usecase
 
    - Game state is saved/loaded using use cases (startGameSession, endGameSession, getLastGameSession).
    - If the last game was not finished  → it resumes.
+   - 
+
+[🎥 Watch Demo](demo/demo.mp4)
+
         
      
 
